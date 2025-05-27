@@ -1,0 +1,30 @@
+# Composer Dependencies
+/vendor/
+
+# Node.js dependencies (falls du frontend tools nutzt)
+/node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+
+# Betriebssystem-spezifische Dateien
+.DS_Store
+Thumbs.db
+
+# IDEs und Editor Dateien
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Cache-Ordner
+/cache/
+/tmp/
+
+# Sonstige sensible Konfigurationsdateien
+/config/config.php
